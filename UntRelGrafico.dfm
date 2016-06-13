@@ -1,0 +1,148 @@
+inherited frmRelGrafico: TfrmRelGrafico
+  Caption = 'frmRelGrafico'
+  ExplicitWidth = 438
+  ExplicitHeight = 288
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited frxReport1: TfrxReport
+    ReportOptions.CreateDate = 42529.612920370390000000
+    ReportOptions.LastChange = 42529.612920370390000000
+    ScriptText.Strings = (
+      ''
+      'begin'
+      ''
+      'end.')
+    Datasets = <
+      item
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+      end>
+    Variables = <>
+    Style = <>
+    object Data: TfrxDataPage
+      Height = 1000.000000000000000000
+      Width = 1000.000000000000000000
+    end
+    object Page1: TfrxReportPage
+      PaperWidth = 215.900000000000000000
+      PaperHeight = 279.400000000000000000
+      PaperSize = 1
+      LeftMargin = 10.000000000000000000
+      RightMargin = 10.000000000000000000
+      TopMargin = 10.000000000000000000
+      BottomMargin = 10.000000000000000000
+      object ReportTitle1: TfrxReportTitle
+        FillType = ftBrush
+        Height = 109.606370000000000000
+        Top = 18.897650000000000000
+        Width = 740.409927000000000000
+        object Memo2: TfrxMemoView
+          Top = 56.692949999999990000
+          Width = 740.787880000000000000
+          Height = 30.236240000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -19
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haCenter
+          Memo.UTF8W = (
+            'Divis'#227'o de Produtos')
+          ParentFont = False
+        end
+      end
+      object MasterData1: TfrxMasterData
+        FillType = ftBrush
+        Height = 385.512060000000000000
+        Top = 188.976500000000000000
+        Width = 740.409927000000000000
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        RowCount = 0
+        object Chart1: TfrxChartView
+          Width = 721.890230000000000000
+          Height = 362.834880000000000000
+          HighlightColor = clBlack
+          Chart = {
+            5450463006544368617274054368617274044C656674020003546F7002000557
+            696474680390010648656967687403FA00144261636B57616C6C2E50656E2E56
+            697369626C65080B4178697356697369626C65080D4672616D652E5669736962
+            6C6508175669657733444F7074696F6E732E456C65766174696F6E033B011856
+            69657733444F7074696F6E732E4F7274686F676F6E616C08195669657733444F
+            7074696F6E732E50657273706563746976650200165669657733444F7074696F
+            6E732E526F746174696F6E0368010B56696577334457616C6C73080A42657665
+            6C4F75746572070662764E6F6E6505436F6C6F720707636C57686974650D4465
+            6661756C7443616E766173060E54474449506C757343616E76617311436F6C6F
+            7250616C65747465496E646578020D000A545069655365726965730753657269
+            6573310D5856616C7565732E4F72646572070B6C6F417363656E64696E670C59
+            56616C7565732E4E616D6506035069650D5956616C7565732E4F726465720706
+            6C6F4E6F6E651A4672616D652E496E6E657242727573682E4261636B436F6C6F
+            720705636C526564224672616D652E496E6E657242727573682E477261646965
+            6E742E456E64436F6C6F720706636C47726179224672616D652E496E6E657242
+            727573682E4772616469656E742E4D6964436F6C6F720707636C576869746524
+            4672616D652E496E6E657242727573682E4772616469656E742E537461727443
+            6F6C6F720440404000214672616D652E496E6E657242727573682E4772616469
+            656E742E56697369626C65091B4672616D652E4D6964646C6542727573682E42
+            61636B436F6C6F720708636C59656C6C6F77234672616D652E4D6964646C6542
+            727573682E4772616469656E742E456E64436F6C6F720482828200234672616D
+            652E4D6964646C6542727573682E4772616469656E742E4D6964436F6C6F7207
+            07636C5768697465254672616D652E4D6964646C6542727573682E4772616469
+            656E742E5374617274436F6C6F720706636C47726179224672616D652E4D6964
+            646C6542727573682E4772616469656E742E56697369626C65091A4672616D65
+            2E4F7574657242727573682E4261636B436F6C6F720707636C477265656E2246
+            72616D652E4F7574657242727573682E4772616469656E742E456E64436F6C6F
+            720440404000224672616D652E4F7574657242727573682E4772616469656E74
+            2E4D6964436F6C6F720707636C5768697465244672616D652E4F757465724272
+            7573682E4772616469656E742E5374617274436F6C6F720708636C53696C7665
+            72214672616D652E4F7574657242727573682E4772616469656E742E56697369
+            626C65090B4672616D652E57696474680204194F74686572536C6963652E4C65
+            67656E642E56697369626C6508000000}
+          ChartElevation = 315
+          SeriesData = <
+            item
+              InheritedName = 'TfrxSeriesItem2'
+              DataType = dtDBData
+              DataSet = frxDBDataset1
+              DataSetName = 'frxDBDataset1'
+              SortOrder = soAscending
+              TopN = 0
+              XType = xtText
+              Source1 = 'frxDBDataset1."Categoria"'
+              Source2 = 'frxDBDataset1."qt"'
+              XSource = 'frxDBDataset1."Categoria"'
+              YSource = 'frxDBDataset1."qt"'
+            end>
+        end
+      end
+      object PageFooter1: TfrxPageFooter
+        FillType = ftBrush
+        Height = 22.677180000000000000
+        Top = 634.961040000000000000
+        Width = 740.409927000000000000
+        object Memo1: TfrxMemoView
+          Left = 665.197280000000000000
+          Width = 75.590600000000000000
+          Height = 18.897650000000000000
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[Page#]')
+        end
+      end
+    end
+  end
+  inherited FDQuery1: TFDQuery
+    Active = True
+    SQL.Strings = (
+      
+        'SELECT        Count(Produto.ID) as qt, Categoria.Nome AS Categor' +
+        'ia'
+      'FROM            Produto INNER JOIN'
+      
+        '                         Categoria ON Produto.Id_categoria = Cat' +
+        'egoria.ID'
+      'GROUP BY Categoria.Nome')
+  end
+  inherited frxDBDataset1: TfrxDBDataset
+    Left = 368
+  end
+end
